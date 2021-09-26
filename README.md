@@ -1,0 +1,1 @@
+This project consists on creating a recipes website using basic HTML tools. It is focused on the structure of a standard website, designed to accurately display elements such as lists, images and links for training purposes.
