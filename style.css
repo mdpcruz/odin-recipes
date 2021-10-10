@@ -5,6 +5,7 @@
 body{
     background-color:#CC7E85;
     text-align: center;
+	font-family: serif, sans-serif;
 }
 
 /*headings 1 and 2*/
@@ -32,14 +33,19 @@ li{
 
 /*design for the recipe list on the main page*/
 
-#main-list{
-	list-style:none;
+#recipes-menu button{
+	background-color: #A36D90;
+	color: #ffffff;
+	font-family: serif,sans-serif;
+	font-weight: bold;
+	height: 40px;
+	width:160px;
 }
 
-#main-list a{
-	font-size: larger;
-	color: #EAF27C;
+#recipes-menu{
+	line-height: 50px;
 }
+
 
 /*images adjustement*/
 
