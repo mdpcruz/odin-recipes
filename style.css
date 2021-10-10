@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+/*overall settings*/
+
+body{
+    background-color:#CC7E85;
+    text-align: center;
+}
+
+/*headings*/
+
+h1{
+	color:#ffffff;
+    background-color: #CF4D6F;
+}
+
+h2{
+	color:#ffffff;
+	background-color: #A36D90;
+}
+
+/*text content + lists on the recipes*/
+
+li,p{
+    color:#ffffff;
+    font-size: larger;
+}
+
+li{
+	list-style-position: inside;
+}
+
+/*design for the recipe list on the main page*/
+
+#main-list{
+	list-style:none;
+}
+
+#main-list a{
+	font-size: larger;
+	color: #EAF27C;
+}
+
+/*images adjustement*/
+
+img{
+    height: 350px;
+    width: auto;
+  	border-color:#EAF27C;
+	border-width: 10px;
+	border-style: solid;
+}
+
+/*code for the animation used on the main page*/
+
+.color-animation {
+    color: white;
+	-webkit-animation-name: color-transition;
+	animation-name: color-transition;
+	-webkit-animation-duration: 25s;
+	animation-duration: 25s;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+@-webkit-keyframes color-transition {
+	0% {
+		background-color: #4C6085;
+		border-color: #4C6085;
+	}
+	33% {
+		background-color: #80D39B;
+		border-color: #80D39B;
+	}
+	66% {
+		background-color: #BE3E82;
+		border-color: #BE3E82;
+	}
+	100% {
+		background-color: #4C6085;
+		border-color: #4C6085;
+	}
+}
+
+@keyframes color-transition {
+	0% {
+		background-color: #4C6085;
+		border-color: #4C6085;
+	}
+	33% {
+		background-color: #80D39B;
+		border-color: #80D39B;
+	}
+	66% {
+		background-color: #BE3E82;
+		border-color: #BE3E82;
+	}
+	100% {
+		background-color: #4C6085;
+		border-color: #4C6085;
+	}
+}
