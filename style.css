@@ -54,7 +54,7 @@ img{
 /*code for the animation used on the main page*/
 
 .color-animation {
-    color: white;
+    color: #ffffff;
 	-webkit-animation-name: color-transition;
 	animation-name: color-transition;
 	-webkit-animation-duration: 25s;
