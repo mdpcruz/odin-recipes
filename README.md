@@ -1,4 +1,4 @@
-This project consists on creating a recipe website using basic HTML tools. It is focused on the structure of a standard website, designed to accurately display elements such as lists, images and links for training purposes.
+This project consists in creating a recipe website using basic HTML tools. It is focused on the structure of a standard website, designed to accurately display elements such as lists, images and links for training purposes.
 
 The three recipes contained within the code are for demonstrational purposes, obtained from the webpages listed above:
 -https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps
